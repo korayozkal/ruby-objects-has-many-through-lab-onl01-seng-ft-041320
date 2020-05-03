@@ -3,5 +3,5 @@ attr_accessor :name, :songs, :genres,
 @@all =[]
 
 
-
+end 
 end 
