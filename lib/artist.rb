@@ -1,13 +1,8 @@
-class Artist 
-attr_accessor :name
-@@all =[]
+class Artist
+  attr_accessor :name
+  @@all = []
 
-def initialize(name)
-  @name = name
-  @@all<< self
-  
-def self.all 
-  @@all
-end 
-
-end 
+  def initialize name
+    @name = name
+    @@all << self
+  end
