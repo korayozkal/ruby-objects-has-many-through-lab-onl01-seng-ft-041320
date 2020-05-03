@@ -8,6 +8,11 @@ def initialize(name)
   @genres= []
   @@all<< self
   
-
+def self.all 
+  @@all
 end 
+
+def songs(name)
+  self.songs          == self
+  
 end 
